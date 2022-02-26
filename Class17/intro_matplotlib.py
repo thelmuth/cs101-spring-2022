@@ -99,7 +99,7 @@ for x in range(15):
 
 x = 0
 ### Loop until x cubed > 1000
-while x ** 3 > -10000:
+while x ** 3 < 10000:
     print(x, x ** 3)
     x += 1
 
