@@ -94,6 +94,7 @@ class Pixel:
         
         return "(R: " + str(self.r) + ", G: " + str(self.g) + ", B: " + str(self.b) + ")"
 
+
         
 def detect_grayscale(image):
     """Detects grayscale pixels in an image, making them bright red.
